@@ -1,5 +1,6 @@
 provider "github" {
   token        = "${var.github_token}"
+  organization = ""
 }
 
 resource "github_repository" "otus-devops-terraform" {
