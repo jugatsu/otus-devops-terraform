@@ -12,3 +12,8 @@ resource "github_repository" "practice-git-1" {
   name        = "practice-git-1"
   description = "Repository for practicing Git in Otus DevOps course"
 }
+
+resource "github_repository" "practice-git-2" {
+  name        = "practice-git-2"
+  description = "Repository for practicing Git in Otus DevOps course"
+}
